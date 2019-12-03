@@ -19,6 +19,13 @@ The workshop is organized by **Girls in Tech - Poland** in association with **Mi
 > **Important**
 >
 > The workshop targets developers who already have at least 1-2 years of experience developing software commercially and who are looking to enhance their skillset with the knowledge on the MS Azure platform.
+>
+> It is strongle recommended that the workshop participants are proficient with at least 1 programming language such as:
+> - Java
+> - C#
+> - C/C++
+> - JavaScript/TypeScript
+> - Go
 
 | [Girls in Tech - Poland](https://poland.girlsintech.org/) | [Microsoft Azure User Group Poland](https://www.facebook.com/groups/azureugpl/) |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -47,6 +54,10 @@ Every workshop participant is expected to bring their own device
 
 ### Software
 
+> **Important**
+>
+> Software requirements are subject to change. Please check back every once in a while
+
 | Name                 | Installation instructions                                                                  |
 | -------------------- | ------------------------------------------------------------------------------------------ |
 | Visual Studio Code\* | [link](https://code.visualstudio.com/)                                                     |
@@ -58,18 +69,6 @@ Every workshop participant is expected to bring their own device
 
 _(\*) [Visual Studio](https://visualstudio.microsoft.com/) Community, Professional or Enterprise can also be used instead of VS Code, however VS Code is a lightweight, cross-platform editor guaranteed to run on all mainstream operating systems_
 
-_(\*\*)_ When installing the .NET Core SDK, please use .NET Core 2.2
+_(\*\*) When installing the .NET Core SDK, please use .NET Core 2.2_
 
-_(\*\*\*)_ When installing the NodeJS SDK, please use the **Current** version
-
-#### IDE (Integrated Development Environment)
-
-We recommend that each user has the cross-platform IDE
-
-#### .NET Core SDK
-
-#### NodeJS
-
-#### Azure CLI
-
-#### Powershell Core
+_(\*\*\*) When installing the NodeJS SDK, please use the **Current** (latest) version_
