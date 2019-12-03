@@ -64,11 +64,11 @@ Every workshop participant is expected to bring their own device
 | Azure CLI            | [link](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) |
 | Powershell Core      | [link](https://github.com/PowerShell/PowerShell)                                           |
 | Powershell Az Module | [link](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-3.1.0)    |
-| .NET Core SDK \*\*   | [link](https://dotnet.microsoft.com/download/dotnet-core)                                  |
+| .NET Core SDK \*\*   | [link](https://dotnet.microsoft.com/download)                                  |
 | NodeJS SDK \*\*\*    | [link](https://nodejs.org/en/)                                                             |
 
 _(\*) [Visual Studio](https://visualstudio.microsoft.com/) Community, Professional or Enterprise can also be used instead of VS Code, however VS Code is a lightweight, cross-platform editor guaranteed to run on all mainstream operating systems_
 
-_(\*\*) When installing the .NET Core SDK, please use .NET Core 2.2_
+_(\*\*) When installing the .NET Core SDK, please use .NET Core 3.1_
 
 _(\*\*\*) When installing the NodeJS SDK, please use the **Current** (latest) version_
