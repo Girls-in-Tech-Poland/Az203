@@ -13,6 +13,13 @@ pushing container images to ACR and deploying containerized workloads using AKS.
 > - Docker
 > - VS Code
 
+## Terms used
+
+- `Kubernetes`: The container orchestrator used in this exercise.
+- `k8s`: "k" + 8 characters + "s", a common abbreviation for `Kubernetes`.
+- `AKS`: Azure Kubernetes Service, an Azure-hosted & Microsoft managed Kubernetes as a service.
+- `ACR`: Azure Container Registry, an Azure-hosted private container registry.
+
 ## About the exercise
 
 ### Signing in to Azure using the Azure CLI
