@@ -13,7 +13,9 @@ pushing container images to ACR and deploying containerized workloads using AKS.
 > 
 > The following prequisites are required in order to execute the lab successfully:
 >
+> - Git
 > - Azure CLI
+> - NodeJS
 > - Docker
 > - VS Code
 
