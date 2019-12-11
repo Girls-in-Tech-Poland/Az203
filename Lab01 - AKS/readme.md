@@ -1,5 +1,9 @@
 # Lab01 - AKS (Azure Kubernetes Service)
-![aks-logo](./img/aks.svg)
+
+|AKS |ACR |
+|-|-|
+![aks-logo](./img/aks.svg)|![acr-logo](./img/acr.svg)
+
 This lab aims to provide a hands-on experience in 
 pushing container images to ACR and deploying containerized workloads using AKS.
 
