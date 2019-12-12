@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ng-git-meetup-deployment
+  labels:
+    app: ng-git-meetup
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: ng-git-meetup
+  template:
+    metadata:
+      labels:
+        app: ng-git-meetup
+    spec:
+      containers:
+      - name: ng-git-meetup
+        # Replace <acr-name> with the name of your ACR
+        image: <acr-name>.azurecr.io/ng-git-meetup:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
