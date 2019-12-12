@@ -21,6 +21,7 @@ The workshop is organized by **Girls in Tech - Poland** in association with **Mi
 > The workshop targets developers who already have at least 1-2 years of experience developing software commercially and who are looking to enhance their skillset with the knowledge on the MS Azure platform.
 >
 > It is strongle recommended that the workshop participants are proficient with at least 1 programming language such as:
+>
 > - Java
 > - C#
 > - C/C++
@@ -60,11 +61,12 @@ Every workshop participant is expected to bring their own device
 
 | Name                 | Installation instructions                                                                  |
 | -------------------- | ------------------------------------------------------------------------------------------ |
+| Git                  | [link](https://git-scm.com/)                                                               |
 | Visual Studio Code\* | [link](https://code.visualstudio.com/)                                                     |
 | Azure CLI            | [link](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) |
 | Powershell Core      | [link](https://github.com/PowerShell/PowerShell)                                           |
 | Powershell Az Module | [link](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-3.1.0)    |
-| .NET Core SDK \*\*   | [link](https://dotnet.microsoft.com/download)                                  |
+| .NET Core SDK \*\*   | [link](https://dotnet.microsoft.com/download)                                              |
 | NodeJS SDK \*\*\*    | [link](https://nodejs.org/en/)                                                             |
 
 _(\*) [Visual Studio](https://visualstudio.microsoft.com/) Community, Professional or Enterprise can also be used instead of VS Code, however VS Code is a lightweight, cross-platform editor guaranteed to run on all mainstream operating systems_
