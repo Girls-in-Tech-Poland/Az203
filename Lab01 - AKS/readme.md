@@ -43,5 +43,5 @@ When prompted for credentials, please sign in using your lab credentials.
 The exercise is divided into the following parts:
 - [AKS Deployment](./01.aks-deployment.md)
 - [ACR Deployment](./02.acr-deployment.md)
-- [Pushing a container image to ACR]()
-- [Deploying a containerized workload using AKS]()
+- [Pushing a container image to ACR](./03.push-to-acr.md)
+- [Deploying a containerized workload using AKS](./04.deploy-to-aks.md)
