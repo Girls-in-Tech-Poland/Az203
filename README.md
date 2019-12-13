@@ -68,9 +68,15 @@ Every workshop participant is expected to bring their own device
 | Powershell Az Module | [link](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-3.1.0)    |
 | .NET Core SDK \*\*   | [link](https://dotnet.microsoft.com/download)                                              |
 | NodeJS SDK \*\*\*    | [link](https://nodejs.org/en/)                                                             |
+| Docker | [link](https://docker.com)
 
 _(\*) [Visual Studio](https://visualstudio.microsoft.com/) Community, Professional or Enterprise can also be used instead of VS Code, however VS Code is a lightweight, cross-platform editor guaranteed to run on all mainstream operating systems_
 
 _(\*\*) When installing the .NET Core SDK, please use .NET Core 3.1_
 
 _(\*\*\*) When installing the NodeJS SDK, please use the **Current** (latest) version_
+
+## Labs
+
+This community workshop consists of the following labs:
+- [Lab01 - AKS](./Lab01%20-%20AKS)
