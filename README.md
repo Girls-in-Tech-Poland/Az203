@@ -80,3 +80,4 @@ _(\*\*\*) When installing the NodeJS SDK, please use the **Current** (latest) ve
 
 This community workshop consists of the following labs:
 - [Lab01 - AKS](./Lab01%20-%20AKS)
+- [Lab01 - Azure App Services](./Lab01%20-%20Azure%20App%20Services)
