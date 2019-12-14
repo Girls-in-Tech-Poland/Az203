@@ -79,5 +79,6 @@ _(\*\*\*) When installing the NodeJS SDK, please use the **Current** (latest) ve
 ## Labs
 
 This community workshop consists of the following labs:
+- [Lab00 - Setup](./Lab00%20-%20Setup)
 - [Lab01 - AKS](./Lab01%20-%20AKS)
-- [Lab01 - Azure App Services](./Lab01%20-%20Azure%20App%20Services)
+- [Lab02 - Azure App Services](./Lab02%20-%20Azure%20App%20Services)
