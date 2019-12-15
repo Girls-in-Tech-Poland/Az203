@@ -6,6 +6,7 @@
 >
 > The following prequisites are required in order to execute the lab successfully:
 >
+> - Git
 > - Azure CLI
 
 ## Initializing the azure subscription
