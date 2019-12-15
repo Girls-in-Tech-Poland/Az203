@@ -7,6 +7,18 @@
 This lab aims to provide a hands-on experience in
 deploying applications to Azure App Services running on both Linux and Windows operating systems.
 
+### Table of Contents
+
+The exercise is divided into the following parts:
+
+| Part no. | Title                                                                           | Expected Duration 
+| -------- | ------------------------------------------------------------------------------- | ----------------- 
+| 1        | Creating web services using Logic Apps                                          | 10m               
+| 2        | Parametrizing Logic Apps                                                        | 10m               
+| 3        | Monitoring Logic Apps                                                           | 7m               
+| 4        | Logic Apps built-in versioning                                                  | 3m               
+| 5        | Integration with Blob Storage                                                   | 15m               
+
 ## Scenario 1 - Creating web services using Logic Apps
 
 1. Ceate **New Resource**.  
@@ -60,6 +72,7 @@ deploying applications to Azure App Services running on both Linux and Windows o
 ![image](./img/000022.png)
 
 ### Scenario 1 summary
+
 > Logic Apps are amazing ways to visually create business workflows as well as cross-service integrations. They are in fact called **Enterprise Integration Service**. It's basically coding using visual building blocks.
 
 > In this example you have built a simple web service which takes no parameters and returns simple 

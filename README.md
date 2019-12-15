@@ -84,4 +84,4 @@ This community workshop consists of the following labs:
 - [Lab02 - Azure App Services](./Lab02%20-%20Azure%20App%20Services)
 - [Lab03 - Azure Cosmos DB](./Lab03&#32;-&#32;Azure&#32;Cosmos&#32;DB)
 - [Lab04 - Azure Monitor](Lab04&#32;-&#32;Azure&#32;Monitor)
-- [Lab05 - Logic Apps](./Lab05%20-%20Logic%20Apps)
+- [Lab05 - Logic Apps](./Lab05%20-%20Azure%20Logic%20Apps)
