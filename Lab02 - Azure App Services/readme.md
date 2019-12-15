@@ -11,5 +11,7 @@ deploying applications to Azure App Services running on both Linux and Windows o
 
 The exercise is divided into the following parts:
 
-- [Part1 - Windows App Service](./01.windows-app-service.md)
-- [Part2 - Linux App Service](./02.linux-app-service.md)
+| Part no. | Title                                              | Expected Duration |
+| -------- | -------------------------------------------------- | ----------------- |
+| 1        | [Windows App Service](./01.windows-app-service.md) | 20m               |
+| 2        | [Linux App Service](./02.linux-app-service.md)     | 20m               |

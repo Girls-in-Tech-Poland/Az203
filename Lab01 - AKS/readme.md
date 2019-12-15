@@ -1,16 +1,16 @@
 # Lab01 - AKS (Azure Kubernetes Service)
 
-|AKS |ACR |
-|-|-|
-![aks-logo](./img/aks.svg)|![acr-logo](./img/acr.svg)
+| AKS                        | ACR                        |
+| -------------------------- | -------------------------- |
+| ![aks-logo](./img/aks.svg) | ![acr-logo](./img/acr.svg) |
 
-This lab aims to provide a hands-on experience in 
+This lab aims to provide a hands-on experience in
 pushing container images to ACR and deploying containerized workloads using AKS.
 
 ## Prequisites
 
 > **Important**
-> 
+>
 > The following prequisites are required in order to execute the lab successfully:
 >
 > - Git
@@ -41,7 +41,10 @@ When prompted for credentials, please sign in using your lab credentials.
 ### Table of Contents
 
 The exercise is divided into the following parts:
-- [AKS Deployment](./01.aks-deployment.md)
-- [ACR Deployment](./02.acr-deployment.md)
-- [Pushing a container image to ACR](./03.push-to-acr.md)
-- [Deploying a containerized workload using AKS](./04.deploy-to-aks.md)
+
+| Part no. | Title                                                                 | Expected Duration |
+| -------- | --------------------------------------------------------------------- | ----------------- |
+| 1        | [AKS Deployment](./01.aks-deployment.md)                              | 15m               |
+| 2        | [ACR Deployment](./02.acr-deployment.md)                              | 15m               |
+| 3        | [Pushing a container image to ACR](./03.push-to-acr.md)               | 10m               |
+| 4        | [Deploying a containerized workload using AKS](./04.deploy-to-aks.md) | 10m               |
