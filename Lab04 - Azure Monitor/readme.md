@@ -1,6 +1,6 @@
 # Lab04 - Azure Azure Monitor
 
-| Azure Cosmos DB                         |
+| Azure Monitor                         |
 | --------------------------------------- |
 | ![app-service-plan](./img/Monitor.svg)  |
 
@@ -297,7 +297,7 @@ In this exercise, you created the resources that you will use for the remainder 
 
 In this exercise, you created an API by using ASP.NET Core and configured it to stream application metrics to Application Insights. You then used the Application Insights dashboard to view performance details about your API.
 
-### Exercise 3: Build a client application by using .NET Core
+# Exercise 3: Build a client application by using .NET Core
 
 #### Task 1: Build a .NET Core console project
 
@@ -498,7 +498,7 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 In this exercise, you created a console application to access your API by using conditional retry logic. The application continued to work regardless of whether the API was available.
 
-### Exercise 4: Load a test Web App
+# Exercise 4: Load a test Web App
 
 #### Task 1: Run a performance test on an Web App
 
@@ -562,7 +562,7 @@ In this exercise, you created a console application to access your API by using 
 
 In this exercise, you performed a performance (load) test of your Web App by using the tools available to you in Azure. After you performed the load test, you were able to measure your API app’s behavior by using metrics in the Azure Monitor interface.
 
-### Exercise 5: Clean up subscription 
+# Exercise 5: Clean up subscription 
 
 #### Task 1: Open Cloud Shell
 
