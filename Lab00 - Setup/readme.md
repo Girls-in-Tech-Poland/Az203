@@ -14,10 +14,11 @@
 ### Lab Credentials
 
 Each lab participant will receive credentials which will grant access to the workshop environment.
+In order to run this workshop effectively, we have generated user credentials for you.
 
 > **Note**
 >
-> In order to run this workshop effectively, we have generated user credentials for you.
+> All indices belong to the `100-129` range
 
 | Username                              | (i)ndex             | Password            |
 | ------------------------------------- | ------------------- | ------------------- |
@@ -31,7 +32,7 @@ Each lab participant will additionally receive a service principal account to ai
 
 | Service Principal Name | (i)ndex             | Password            |
 | ---------------------- | ------------------- | ------------------- |
-| `sp-user[i]`           | Ask your instructor | `TrudneHaslo1` |
+| `sp-user[i]`           | Ask your instructor | Ask your instructor |
 
 ### Azure Pass Subscriptions
 
