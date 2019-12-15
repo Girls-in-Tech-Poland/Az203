@@ -27,4 +27,4 @@ The exercise is divided into the following parts:
 | -------- | ------------------------------------------------------------------------------- | ----------------- |
 | 1        | [Create a Cosmos DB instance using Visual Studio Code](./01.cosmosdb-create.md) | 10m               |
 | 2        | [Create a Node.js app in Visual Studio Code](./02.cosmosdb-nodejs-vscode.md)    | 15m               |
-| 3        | [Add JavaScript code to work with Cosmos DB](./03.javascript-cosmosdb.md)       | 20m               
+| 3        | [Add JavaScript code to work with Cosmos DB](./03.javascript-cosmosdb.md)       | 20m               |
