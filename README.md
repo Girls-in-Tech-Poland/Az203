@@ -80,6 +80,8 @@ _(\*\*\*) When installing the NodeJS SDK, please use the **Current** (latest) ve
 
 This community workshop consists of the following labs:
 - [Lab00 - Setup](./Lab00%20-%20Setup)
-- [Lab01 - Kubernetes Service (AKS)](./Lab01%20-%20AKS)
-- [Lab02 - App Services](./Lab02%20-%20Azure%20App%20Services)
+- [Lab01 - AKS](./Lab01%20-%20AKS)
+- [Lab02 - Azure App Services](./Lab02%20-%20Azure%20App%20Services)
+- [Lab03 - Azure Cosmos DB](./Lab03&#32;-&#32;Azure&#32;Cosmos&#32;DB)
+- [Lab04 - Azure Monitor](Lab04&#32;-&#32;Azure&#32;Monitor)
 - [Lab05 - Logic Apps](./Lab05%20-%20Logic%20Apps)

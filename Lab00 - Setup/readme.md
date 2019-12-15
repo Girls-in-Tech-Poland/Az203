@@ -82,6 +82,11 @@ az group create --name lab05 --location westeurope
 az group create --name lab06 --location westeurope
 ```
 
+### Clone the repository into a desired folder
+```
+git clone https://github.com/Girls-in-Tech-Poland/Az203.git
+```
+
 ## Conclusion
 
 At this point, we assume that you have successfully used the Azure CLI to provision resource groups for the duration of the workshop and you are ready to begin the remaining labs.
