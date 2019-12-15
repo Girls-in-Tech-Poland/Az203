@@ -82,21 +82,21 @@ The exercise is divided into the following parts:
 1. Go back to **Designer**.
 2. Add **relative path parameter**.  
 ![image](./img/000034.png)
-2. Set the value of relative path to **/{name}**.  
+3. Set the value of relative path to **/{name}**.  
 ![image](./img/000035.png)
-2. Save the logic app.  
+4. Save the logic app.  
 ![image](./img/000016.png)
     > New logic app dynamic parameter is now available to use after saving the logic app. 
-2. Replace text **Hello world!** in the output by removing **world** word and while having cursor in the place of that word clicking on **name parameter**.  
+5. Replace text **Hello world!** in the output by removing **world** word and while having cursor in the place of that word clicking on **name parameter**.  
 ![image](./img/000037.png)
-2. Paramterized output should look like this.  
+6. Paramterized output should look like this.  
 ![image](./img/000038.png)
-2. Save the logic app.  
+7. Save the logic app.  
 ![image](./img/000016.png)
-2. Copy newly generated URL and paste it in the browser.  
+8. Copy newly generated URL and paste it in the browser.  
 ![image](./img/000036.png)
     > URL changed because we added parameters which affect how URL looks like.
-2. Replace **{name}** (with the brackets) with your name and press enter.  
+9. Replace **{name}** (with the brackets) with your name and press enter.  
 ![image](./img/000039.png)
 
 ## Scenario 3 - Monitoring Logic Apps
@@ -129,9 +129,9 @@ The exercise is divided into the following parts:
 
 1. Go to **Versions** blade.  
 ![image](./img/000024.png)
-3. Select any version to to review previous logic app versions.  
+2. Select any version to to review previous logic app versions.  
 ![image](./img/000025.png)
-2. Go back to **Overview** blade.  
+3. Go back to **Overview** blade.  
 ![image](./img/000026.png)
 
 > When developing logic apps Azure saves by default every version. Unfortunately there is currently no out of the box integration with git but you can later do full CI/CD with Azure DevOps using ARM templates.
@@ -159,49 +159,49 @@ The exercise is divided into the following parts:
 3. Go to Logic App **Designer**.  
 4. **Add an action** between steps.  
 ![image](./img/000042.png)
-1. Search for **blob** and select **Azure Blob Storage** connector.  
+5. Search for **blob** and select **Azure Blob Storage** connector.  
 ![image](./img/000043.png)
-1. Select **Create blob** action.  
+6. Select **Create blob** action.  
 ![image](./img/000044.png)
-1. Create new connection.  
+7. Create new connection.  
     1. Pick any name you want.
     2. .Select your storage account and hit **Create**.  
     ![image](./img/000045.png)
-1. In **Folder name*8 field select folder picker.  
+8. In **Folder name*8 field select folder picker.  
 ![image](./img/000046.png)
-1. Choose data container.  
+9. Choose data container.  
 ![image](./img/000047.png)
-1. Click in **Blob name** file, select **Expression** in the popup and paste in the expression and clikc **OK**.  
+10. Click in **Blob name** file, select **Expression** in the popup and paste in the expression and clikc **OK**.  
     ```json
     concat('request-',guid(),'.txt')
     ```
     ![image](./img/000049.png)
-1. In **Blob content** click on the text field and select **See more** in the popup.  
+11. In **Blob content** click on the text field and select **See more** in the popup.  
 ![image](./img/000050.png)
-1. Select **name** parameter.  
+12. Select **name** parameter.  
 ![image](./img/000051.png)
-1. Blob connector setting should look like this.
+13. Blob connector setting should look like this.
 ![image](./img/000052.png)
-3. Save the logic app.  
+14. Save the logic app.  
 ![image](./img/000016.png)
 
 ### The logic app
 
 1. Grab the URL of logic app from the trigger element. 
 ![image](./img/000021.png)
-1. Test it in the browser using several names of your choice.  
+2. Test it in the browser using several names of your choice.  
 ![image](./img/000053.png)
-1. Go to **resource group**.  
+3. Go to **resource group**.  
 ![image](./img/000054.png)
-1. Open storage account. In case you don't see it hit **Refresh** button on the top.  
+4. Open storage account. In case you don't see it hit **Refresh** button on the top.  
 ![image](./img/000055.png)
-1. Go to **containers**.  
+5. Go to **containers**.  
 ![image](./img/000056.png)
-1. Open **data** container.  
+6. Open **data** container.  
 ![image](./img/000057.png)
-1. Validate multiple files are in the storage and click on one of them.  
+7. Validate multiple files are in the storage and click on one of them.  
 ![image](./img/000059.png)
-1. Hit **Edit** tab and validate contents. You should see name passed in the URL.  
+8. Hit **Edit** tab and validate contents. You should see name passed in the URL.  
 ![image](./img/000060.png)
 
 > You have successfully created a web service which accepts parameters, connects to blob storage and saves data permanently and responds using those parameters. Now take advantage of those 200+ connectors.
