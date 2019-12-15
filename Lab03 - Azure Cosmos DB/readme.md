@@ -23,3 +23,4 @@ In this module, you will:
 
 The exercise is divided into the following parts:
 - [Create a Cosmos DB instance using Visual Studio Code](./01.cosmosdb-create.md)
+- [Create a Node.js app in Visual Studio Code](./02.cosmosdb-nodejs-vscode.md)
