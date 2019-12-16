@@ -20,7 +20,7 @@ The workshop is organized by **Girls in Tech - Poland** in association with **Mi
 >
 > The workshop targets developers who already have at least 1-2 years of experience developing software commercially and who are looking to enhance their skillset with the knowledge on the MS Azure platform.
 >
-> It is strongle recommended that the workshop participants are proficient with at least 1 programming language such as:
+> It is strongly recommended that the workshop participants are proficient with at least 1 programming language such as:
 >
 > - Java
 > - C#
