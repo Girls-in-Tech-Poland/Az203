@@ -57,6 +57,13 @@ In order to establish a secure session using Azure CLI, please use the following
 az login
 ```
 
+> **Important**
+>
+> If you have multiple az cli profiles cached, ensure that a valid subscription for this lab is selected:
+>
+> `az account set --subscription <subscription-id>`
+> where `<subscription-id>` belongs to a subscription named `Azure Pass - Sponsorship`
+
 When prompted, please use your provided lab credentials in order to sign in.
 
 ### Provisioning lab resource groups using Azure CLI
