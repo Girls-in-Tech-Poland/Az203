@@ -19,6 +19,14 @@ pushing container images to ACR and deploying containerized workloads using AKS.
 > - Docker
 > - VS Code
 
+### Required Resource Providers
+
+```bash
+az provider register --namespace 'Microsoft.Compute'
+az provider register --namespace 'Microsoft.ContainerService'
+az provider register --namespace 'Microsoft.ContainerRegistry'
+```
+
 ## Terms used
 
 - `Kubernetes`: The container orchestrator used in this exercise.
