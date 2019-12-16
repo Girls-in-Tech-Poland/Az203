@@ -2,7 +2,7 @@
 
 | Azure Cosmos DB                         |
 | --------------------------------------- |
-| ![app-service-plan](./img/cosmosdb.svg) |
+| ![cosmosdb](./img/cosmosdb.svg) |
 
 Build a database app to store and query data in Azure Cosmos DB by using Visual Studio Code and Node.js.
 
