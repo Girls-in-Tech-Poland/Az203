@@ -63,7 +63,8 @@ When prompted, please use your provided lab credentials in order to sign in.
 
 ```bash
 az group create --name lab01 --location westeurope
-az group create --name lab02 --location westeurope
+az group create --name lab02a --location westeurope
+az group create --name lab02b --location westeurope
 az group create --name lab03 --location westeurope
 az group create --name lab04 --location westeurope
 az group create --name lab05 --location westeurope
