@@ -6,25 +6,19 @@
 >
 > The following prequisites are required in order to execute the lab successfully:
 >
+> - Git
 > - Azure CLI
 
 ## Initializing the azure subscription
 
-> **Note**
->
-> The entire contents of this workshop can be done at home, at your own pace using an [Azure free account](https://azure.microsoft.com/en-us/free/).
->
-> When provisioning the free account, please don't use your main Live ID
->
-> **For the duration of the workshop, please use the provided Azure credentials & subscription(s)**
-
 ### Lab Credentials
 
 Each lab participant will receive credentials which will grant access to the workshop environment.
+In order to run this workshop effectively, we have generated user credentials for you.
 
 > **Note**
 >
-> In order to run this workshop effectively, we have generated user credentials for you.
+> All indices belong to the `100-129` range
 
 | Username                              | (i)ndex             | Password            |
 | ------------------------------------- | ------------------- | ------------------- |
@@ -39,12 +33,6 @@ Each lab participant will additionally receive a service principal account to ai
 | Service Principal Name | (i)ndex             | Password            |
 | ---------------------- | ------------------- | ------------------- |
 | `sp-user[i]`           | Ask your instructor | Ask your instructor |
-
-It will be important to obtain the `id` of the service principal which can be done using:
-
-```bash
-az ad sp show --id http://sp-user[i] --query appId --output tsv
-```
 
 ### Azure Pass Subscriptions
 
@@ -79,7 +67,6 @@ az group create --name lab02 --location westeurope
 az group create --name lab03 --location westeurope
 az group create --name lab04 --location westeurope
 az group create --name lab05 --location westeurope
-az group create --name lab06 --location westeurope
 ```
 
 ### Clone the repository into a desired folder
@@ -90,3 +77,11 @@ git clone https://github.com/Girls-in-Tech-Poland/Az203.git
 ## Conclusion
 
 At this point, we assume that you have successfully used the Azure CLI to provision resource groups for the duration of the workshop and you are ready to begin the remaining labs.
+
+## Running the workshop contents at home
+
+The entire contents of this workshop can be done at home, at your own pace using an [Azure free account](https://azure.microsoft.com/en-us/free/).
+
+When provisioning the free account, please don't use your main Live ID
+ **For the duration of the workshop, please use the provided Azure credentials & subscription(s)**
+
