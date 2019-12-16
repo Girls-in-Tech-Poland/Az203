@@ -2,7 +2,7 @@
 
 ## Welcome
 
-This repository contains Az203 (Azure Fundamentals) materials, used during the **Girls in Tech** meetups and workshops.
+This repository contains Az203 (Developing Solutions for Microsoft Azure) materials, used during the **Girls in Tech** meetups and workshops.
 
 ## The Workshop
 
